@@ -1,0 +1,113 @@
+body {
+	font-family: "Helvetica Neue";
+	font-size: 24px;
+	font-weight: 500;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+form {
+	padding: 50px;
+	width: 100%;
+	display: none;
+	border: 1px solid white;
+
+}
+button {
+	height: 100%;
+	border: 1px solid #999999;
+	box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+	background: #fbfbfb;
+	opacity: 0.8;
+}
+.button_in {
+	width: 10%;
+	position: absolute;
+	left: 80%;
+	transform: translate(-50%, 0%);
+}
+.button_up {
+	width: 10%;
+	position: absolute;
+	left: 95%;
+	transform: translate(-50%,0%);
+}
+.sign_in {
+	position: fixed;
+	border: 1px solid white;
+	left: 90%;
+	top: 10%;
+	width: 9%;
+	height: 50%;
+	transform: translate(-50%,0%);
+}
+.sign_up {
+	position: fixed;
+	border: 1px solid white;
+	top: 10%;
+	right: 3%;
+	width: 20%;
+	height: 50%;
+	transform: translate(-100%,0%);
+}
+input {
+	width: 50%;
+	height: 30px;
+
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #999999;
+	box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+	background: #fbfbfb;
+	opacity: 0.8;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+input.error {
+	border: 1px solid red;
+}
+label.error {
+    color: red;
+    font-style: italic;
+}
+.container {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+.box {
+	width: 50%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.top-bar {
+	position: fixed;
+	left: 50%;
+	top: 5%;
+	width: 90%;
+	height: 5%;
+	transform: translate(-50%, -50%);
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
